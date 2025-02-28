@@ -13,7 +13,7 @@ import lombok.Data;
 public class MyExpenses {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int expnId1;
+	private int expnId11;
 	private Date expnDate;
 	private String expnCategory;
 	private float expnAmt;
